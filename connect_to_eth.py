@@ -26,7 +26,7 @@ def connect_with_middleware(contract_json):
 
 	# TODO complete this method
 	# The first section will be the same as "connect_to_eth()" but with a BNB url
-	bnb_url = "http://bsc-dataseed.binance.org/" #public bnb provider 
+	bnb_url = "https://bsc-dataseed.binance.org/" #public bnb provider 
 	w3 = Web3(HTTPProvider(bnb_url))
 	assert w3.is_connected(), f"Failed to connect to provider at {bnb_url}"
 
